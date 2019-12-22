@@ -11,7 +11,7 @@ final class Swedish implements LangInterface
 
 	public static function get_locale()
 	{
-		$locale = array(
+		$locale = [
 			'USERNAME' => 'användarnamn',
 			'PASSWORD' => 'lösenord',
 			'ENTER' => 'Stig in',
@@ -41,6 +41,7 @@ final class Swedish implements LangInterface
 			'SHARED_ALBUMS' => 'Shared albums',
 			'ALBUMS' => 'Album',
 			'PHOTOS' => 'Pictures',
+			'SEARCH_RESULTS' => 'Search results',
 
 			'RENAME' => 'Ändra namnet',
 			'RENAME_ALL' => 'Byt namn på vald',
@@ -246,6 +247,7 @@ final class Swedish implements LangInterface
 			'ERROR_UNKNOWN' => 'Något oväntat inträffade. Vänligen försök igen och kontrollera installationen av Lychee och din server. För mera information läs dokumentet <b>readme</b>.',
 			'ERROR_LOGIN' => 'Kunde inte spara inloggningsuppgifterna. Vänligen prova med ett annat användarnamn och lösenord!',
 			'ERROR_MAP_DEACTIVATED' => 'Map functionality has been deactivated under settings.',
+			'ERROR_SEARCH_DEACTIVATED' => 'Search functionality has been deactivated under settings.',
 			'SUCCESS' => 'OK',
 			'RETRY' => 'Försök igen',
 
@@ -399,7 +401,7 @@ final class Swedish implements LangInterface
 			'PHOTO_THUMB' => 'Square thumb',
 			'PHOTO_THUMB_HIDPI' => 'Square thumb HiDPI',
 			'PHOTO_VIEW' => 'Lychee Photo View:',
-		);
+		];
 
 		return $locale;
 	}
